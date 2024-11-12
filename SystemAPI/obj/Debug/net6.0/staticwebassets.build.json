@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1GlTqyXgHc2hHCdENxVUEbJ31l8vn8Qh70SjyoicbDk=",
+  "Source": "SystemAPI",
+  "BasePath": "_content/SystemAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

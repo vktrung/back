@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\3ae\\manage grade\\backend\\DataAccess\\DataAccess.csproj": {}
+  },
+  "projects": {
+    "D:\\3ae\\manage grade\\backend\\BussinessObject\\BussinessObject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\3ae\\manage grade\\backend\\BussinessObject\\BussinessObject.csproj",
+        "projectName": "BussinessObject",
+        "projectPath": "D:\\3ae\\manage grade\\backend\\BussinessObject\\BussinessObject.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\3ae\\manage grade\\backend\\BussinessObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\3ae\\manage grade\\backend\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\3ae\\manage grade\\backend\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\3ae\\manage grade\\backend\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\3ae\\manage grade\\backend\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\3ae\\manage grade\\backend\\BussinessObject\\BussinessObject.csproj": {
+                "projectPath": "D:\\3ae\\manage grade\\backend\\BussinessObject\\BussinessObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,636 @@
+[
+  {
+    "ContainingType": "SystemAPI.Controllers.ClassController",
+    "Method": "AddClass",
+    "RelativePath": "api/Class/AddClass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classDto",
+        "Type": "BussinessObject.DTO.Class.ClassDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.ClassController",
+    "Method": "ExistsByName",
+    "RelativePath": "api/Class/ExistsByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.ClassController",
+    "Method": "GetAllClasses",
+    "RelativePath": "api/Class/GetAllClasses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.ComparisonTypeController",
+    "Method": "GetRoleGraded",
+    "RelativePath": "api/ComparisonType/GetComparisonTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.CourseController",
+    "Method": "AddCourse",
+    "RelativePath": "api/Course/AddCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "course",
+        "Type": "BussinessObject.DTO.Course.CourseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.CourseController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/Course/DeleteGradeDistribution/{courseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.CourseController",
+    "Method": "GetAllCourse",
+    "RelativePath": "api/Course/GetAllCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeController",
+    "Method": "CreateGrade",
+    "RelativePath": "api/Grade/CreateGrade/{courseId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ListGDTO",
+        "Type": "System.Collections.Generic.List\u00601[[BussinessObject.DTO.Grade.CreateGradeDTO, BussinessObject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeController",
+    "Method": "GetGradesGradedByKhaoThi",
+    "RelativePath": "api/Grade/GetAllGradeGradedByKhaoThi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeController",
+    "Method": "GetGradesBySessionGradedByKhaoThi",
+    "RelativePath": "api/Grade/GetGradesBySessionGradedByKhaoThi/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeController",
+    "Method": "GetGradesBySessionGradedByTeacher",
+    "RelativePath": "api/Grade/GetGradesBySessionGradedByTeacher/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeTypeController",
+    "Method": "CreateGradeType",
+    "RelativePath": "api/GradeType/CreateGradeType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gtDTO",
+        "Type": "BussinessObject.DTO.GradeType.CreateGradeTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeTypeController",
+    "Method": "DeleteGradeType",
+    "RelativePath": "api/GradeType/DeleteGradeType/{gradeTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeTypeController",
+    "Method": "GetAllGradeType",
+    "RelativePath": "api/GradeType/GetAllGradeType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeTypeController",
+    "Method": "GetDistribution",
+    "RelativePath": "api/GradeType/GetDistribution/{gradeTypeId}/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.GradeTypeController",
+    "Method": "UpdateGradeType",
+    "RelativePath": "api/GradeType/UpdateGradeType/{gradeTypeId}/{gradedByRole}/{newCcomparisonType}/{newGradeValue}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gradedByRole",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newCcomparisonType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newGradeValue",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.RoleController",
+    "Method": "GetRoleGraded",
+    "RelativePath": "api/Role/GetRoleGraded",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SemesterController",
+    "Method": "ChangeSemesterStatus",
+    "RelativePath": "api/Semester/ChangeSemesterStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SemesterController",
+    "Method": "IsSemesterOnGoing",
+    "RelativePath": "api/Semester/IsSemesterOnGoing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionController",
+    "Method": "AddSession",
+    "RelativePath": "api/Session/AddSession",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionDto",
+        "Type": "BussinessObject.DTO.Session.SessionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionController",
+    "Method": "GetAllSessions",
+    "RelativePath": "api/Session/GetAllSessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionController",
+    "Method": "GetSessionByStudentId",
+    "RelativePath": "api/Session/GetSessionByStudent/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionController",
+    "Method": "GetSessionByTeacherId",
+    "RelativePath": "api/Session/GetSessionByTeacher/{teacherId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionStudentController",
+    "Method": "AddStudentToSession",
+    "RelativePath": "api/SessionStudent/AddStudentToSession",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionStudentDTO",
+        "Type": "BussinessObject.DTO.SessionStudent.SessionStudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionStudentController",
+    "Method": "GetAvgGrade",
+    "RelativePath": "api/SessionStudent/GetAvgGrade/{courseId}/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionStudentController",
+    "Method": "GetSessionStudents",
+    "RelativePath": "api/SessionStudent/GetSessionStudents/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.SessionStudentController",
+    "Method": "GetStatus",
+    "RelativePath": "api/SessionStudent/GetStatus/{courseId}/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.StudentGradeController",
+    "Method": "CheckStudentGradeExist",
+    "RelativePath": "api/StudentGrade/CheckStudentGradeExist/{gradeId}/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.StudentGradeController",
+    "Method": "DeleteStudentGrade",
+    "RelativePath": "api/StudentGrade/DeleteStudentGrade/{gradeId}/{studentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.StudentGradeController",
+    "Method": "GetGradeForStudentByGradeId",
+    "RelativePath": "api/StudentGrade/GetGradeForStudentByGradeId/{gradeId}/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.StudentGradeController",
+    "Method": "GradedForStudent",
+    "RelativePath": "api/StudentGrade/GradedForStudent/{gradeId}/{studentId}/{value}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.StudentGradeController",
+    "Method": "UpdateGradeForStudent",
+    "RelativePath": "api/StudentGrade/UpdateGradeForStudent/{gradeId}/{studentId}/{value}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.StudentGradeController",
+    "Method": "ViewGrade",
+    "RelativePath": "api/StudentGrade/ViewGrade/{studentId}/{courseid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.UserController",
+    "Method": "GetStudent",
+    "RelativePath": "api/User/GetStudent/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.UserController",
+    "Method": "GetStudentByCourseId",
+    "RelativePath": "api/User/GetStudentByCourseId/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.UserController",
+    "Method": "GetStudentInSession",
+    "RelativePath": "api/User/GetStudentInSession/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/GetUser/{username}/{password}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SystemAPI.Controllers.UserController",
+    "Method": "GetUsersByRole",
+    "RelativePath": "api/User/GetUsersByRole/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
